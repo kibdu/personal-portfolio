@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kenny Jay</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/756fc95e6a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="content">
+        <div id="header" class="header">
+            <div>KENNY</div>
+            <div>
+                <ul>
+                    <li>Contact</li>
+                    <li>Favorites</li>
+                    <li>Education</li>
+                    <li>About</li>
+                    <li>Home</li>
+                </ul>
+            </div>
+        </div>
+        <div id="header1" class="header1">
+            <div class="option">
+                <svg id="nav-menu" onclick="open_menu()" viewBox="-20 -20 480 480" xmlns="http://www.w3.org/2000/svg"><path d="M385 128.33333333333331 55 128.33333333333331" fill="none" stroke="#cc005f" stroke-linecap="round" stroke-linejoin="round" stroke-width="40"></path><path d="M385 220 55 220" fill="none" stroke="#cc005f" stroke-linecap="round" stroke-linejoin="round" stroke-width="40"></path><path d="M385 311.66666666666663 55 311.66666666666663" fill="none" stroke="#cc005f" stroke-linecap="round" stroke-linejoin="round" stroke-width="40"></path></svg>
+                <p>KENNY</p>
+            </div>
+            <div id="menu" class="menu">
+                <li onclick="nav('home')">Home</li>
+                <li onclick="nav('About')">About</li>
+                <li onclick="nav('educ')">Education</li>
+                <li onclick="nav('favorite')">Favorites</li>
+                <li onclick="nav('contact')">Contact</li>
+            </div>
+        </div>
+        <div id="home" class="home">
+            <div class="home1">
+                <p>HELLO, WORLD.</p>
+                <p>I'm Kenny Jay Largo.</p>
+            </div>
+            <div class="home2">
+                <div></div>
+                <p>FRONT-END DEVELOPER</p>
+                <div></div>
+                <P>UI/UX DESIGNER</P>
+                <div></div>
+            </div>
+            <button class="about">
+                <p>MORE ABOUT ME</p>
+                <svg viewBox="-20 -20 480 480" xmlns="http://www.w3.org/2000/svg" height="1.5vw" width="1.5vw"><path d="M9.918333333333333 103.16166666666666 213.87666666666667 333.66666666666663a9.166666666666666 9.166666666666666 0 0 0 13.731666666666666 0L431.585 103.16166666666666" fill="none" stroke="#808080" stroke-linecap="round" stroke-linejoin="round" stroke-width="40"></path></svg>
+            </button>
+            <div class="home3">
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-discord"></i>
+            </div>
+        </div>
+        <div id="About" class="About">
+            <div class="About1">
+                <p>ABOUT</p>
+                <P>Let me introduce myself.</P>
+                <div class="Intro">
+                    <img src="images/20220807_153551-01.jpeg">
+                    <span>Hello, I'm Kenny Jay, a seasoned UI/UX designer with 1 year of <br><br> experience in crafting user-centric interfaces that blend aesthetics <br><br> with functionality. I'm dedicated to optimizing user experiences <br><br> through thoughtful design solutions. Additionally, I'm a proficient <br><br> front-end developer specializing in HTML, CSS, and JavaScript.</span>
+                </div>
+                <div class="About2">
+                    <div class="profile">
+                        <p>PROFILE</p>
+                        <P>I am a versatile professional with a strong foundation in UI/UX design, specializing <br><br> in crafting intuitive and visually appealing web features. My proficiency extends <br><br> to computer fundamentals, ensuring a solid grasp of essential concepts. </P>
+                        <p>FULLNAME:</p>
+                        <P>Kenny Jay Largo</P>
+                        <p>BIRTHDATE:</p>
+                        <P>December 11, 2002</P>
+                        <p>JOB:</p>
+                        <p>Freelancer</p>
+                        <p>WEBSITE:</p>
+                        <p>www.kennywebsite.com</p>
+                        <p>EMAIL:</p>
+                        <p>kennyjaylargo@gmail.com</p>
+                    </div>
+                    <div class="skills">
+                        <p>SKILLS</p>
+                        <p>I excel in UI/UX design, proficient in creating user-friendly web features. Additionally, <br><br> I possess solid computer literacy, with a strong foundation in fundamental concepts. <br><br> Moreover, I have experience in three diverse programming languages.</p>
+                        <P><i class="fa-brands fa-html5"></i> HTML</p>
+                        <div class="meter-container"><div class="html"></div></div>
+                        <p><i class="fa-brands fa-css3-alt"></i> CSS</p>
+                        <div class="meter-container"><div class="css"></div></div>
+                        <p><i class="fa-brands fa-java"></i> JAVA</p>
+                        <div class="meter-container"><div class="java"></div></div>
+                        <p><i class="fa-solid fa-copyright"></i> C</p> 
+                        <div class="meter-container"><div class="c"></div></div>
+                        <p><i class="fa-brands fa-python"></i> PYTHON</p>    
+                        <div class="meter-container"><div class="python"></div></div>                       
+                    </div>
+                </div>
+            </div> 
+            <div id="educ" class="educ">
+                <div class="educ1">
+                    <p>EDUCATION</p>    
+                    <P> During my academic journey, I gained a strong foundation in web designing, <br><br> which has been instrumental in shaping my proficiency in UI/UX design and programming languages. </P> 
+                    <P>TIMELINE</P>  
+                </div>
+                <div class="timeline-container">
+                    <div class="timeline">
+                        <p>PRIMARY SCHOOL</p>
+                        <P>2009 - 2015<br><br><br><br><br><br><br><br><br><br><br></P>
+                        <P>SECONDARY SCHOOL</P>
+                        <p>2015 - 2019<br><br><br><br><br><br><br><br><br><br><br></p>
+                        <p>SENIOR HIGH SCHOOL</p>
+                        <p>2019 - 2021<br><br><br><br><br><br><br><br><br><br><br></p>
+                        <p>TERTIARY</p>
+                        <p>2022 - Present<br><br><br><br><br><br><br><br><br><br><br></p>
+                    </div>
+                    <div class="timeline12">
+                        <p><i class="fa-solid fa-graduation-cap"></i></p>
+                        <P><i class="fa-solid fa-graduation-cap"></i></P>
+                        <p><i class="fa-solid fa-graduation-cap"></i></p>
+                        <p><i class="fa-solid fa-graduation-cap"></i></p>
+                    </div>
+                    <div class="timeline1">
+                        <p> BOLINAWAN ELEMENTARY SCHOOL</p>
+                        <p> I attended Bolinawan Elementary School, a nurturing educational <br><br> nstitution known for its commitment to fostering a well-rounded <br><br> learning environment. The school provided a solid foundation in <br><br> core subjects and encouraged a holistic approach to education, <br><br> instilling in me a strong sense of curiosity and a love for <br><br> learning from an early age. </p>
+                        <p> OCANA NATIONAL HIGH SCHOOL</p>
+                        <p> I graduated from Ocana National High School, a renowned institution <br><br> known for its rigorous academic programs and vibrant extracurricular <br><br> activities. The school provided a dynamic learning environment that <br><br> encouraged critical thinking, collaboration, and personal growth.Through <br><br> a diverse range of courses and opportunities, I developed a strong <br><br> academic foundation and honed essential skills for future endeavors.</p>
+                        <p> CARCAR ACADEMY TECHNICAL SCHOOL INC.</p>
+                        <p> I completed my senior high school education at Carcar Academy TS Inc.<br><br> This institution offered a specialized curriculum focused on TVL Strand, <br><br> providing a comprehensive and in-depth education in these areas. The <br><br> rigorous coursework and dedicated faculty contributed significantly <br><br> to my academic growth and prepared me for the next phase of <br><br> my educational journey. </p>
+                        <p> CEBU TECHNOLOGICAL UNIVERSITY</p>
+                        <p> I am currently pursuing my degree at Cebu Technological University. It is a <br><br> reputable institution known for its IT and Web Designing Degree. The <br><br> college provides a dynamic learning environment that encourages <br><br> critical thinking and hands-on experience. I am excited to continue <br><br> my educational journey here and look forward to further developing my <br><br> skills and knowledge in BSIT and Web Designing</p>  
+                    </div>    
+                </div>
+            </div>
+            <div id="favorite" class="favorite">
+                <div class="fav">
+                    <p>FAVORITE</p>
+                    <p>Check Out Some of My Favorites and Know Me A Little Better.</p>
+                    <p> To know me a little better is to understand my passion for creativity and problem-solving. Whether it's designing <br><br> user-friendly interfaces or delving into complex programming challenges, each endeavor reflects my commitment to crafting innovative solutions. </p>
+                </div>
+                <video controls src="video/gtky.mp4"></video>
+                <img src="images/Group 1.svg">
+            </div>
+            <div id="contact" class="contact">
+                <div class="contact1"></div>
+                <p>CONTACT</p>
+                <P>I'd Love To Hear From You.</P>
+                <p> I value open communication and welcome the opportunity to connect. Whether it's discussing a project, sharing ideas, or simply <br><br> engaging in a conversation, I'd love to hear from you. Your input and insights are invaluable in creating meaningful and impactful experiences. </p>
+                <input placeholder="Name">
+                <input placeholder="Email">
+                <input placeholder="Subject">
+                <input placeholder="Message">
+                <button>SUBMIT</button>
+                <div class="personal">
+                    <span class="location"><i class="fa-solid fa-location-dot"></i>
+                    <p>WHERE TO FIND ME</p>
+                    <p>851 Cambuntan - Tagbilaran Road, Carcar City, Central Visayas</p></span>
+                </div>
+                <iframe src="https://www.google.com/maps/embed?pb=!4v1699348148097!6m8!1m7!1s-Sxcvx_uUKS9jkEc2vpwhQ!2m2!1d10.09276398479728!2d123.6357696353757!3f204.66122526770693!4f-3.705521074344915!5f0.7820865974627469" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        <script src="script.js"></script>
+    </body>
+    </html>
